@@ -1,0 +1,74 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Barlow', sans-serif;
+
+}
+header{
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  height: 80px;
+
+}
+header ul{
+  display: flex;
+  padding-left: 300px;
+}
+header li{
+  list-style: none;
+  padding-left: 70px;
+  color: hsl(230, 29%, 20%);
+  font-size: 17px;
+  font-weight: 700;
+}
+.dot{
+  color: hsl(207, 33%, 95%);
+  font-size: 20px;
+}
+.login{
+  color: hsl(231, 7%, 65%);
+}
+header li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.badge{
+  background-color: black;
+  color: white;
+  border: 0px solid black;
+   border-radius: 100px;
+   margin-left: 30px;
+}
+.bruh{
+  font-weight: 400;
+  color: hsl(207, 33%, 95%);
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.left h1{
+  padding-left: 25px;
+  font-weight: 700;
+  font-family: 'Barlow', sans-serif;
+}
+.left p{
+  padding-left: 25px;
+  color: hsl(230, 11%, 40%);
+}
+.button{
+  background-color: hsl(0, 100%, 68%);
+  border: 0px solid black;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.img img{
+  float: right;
+  width: 570px;
+}
+.left{
+  float: left;
+}
